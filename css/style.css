@@ -94,3 +94,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.letra.marca{
+    text-align: center;
+}
