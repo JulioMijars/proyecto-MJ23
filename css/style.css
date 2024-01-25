@@ -68,7 +68,7 @@ body{
 }
 
 .lead{
-    font-size: 4rem;
+    font-size: 40px;
     font-weight: 300;
 }
 
@@ -87,7 +87,7 @@ body{
 }
 
 .banner{
-    background-image: url(../medios/banner.jpg);
+    background-image: url(../medios/michael-jordan.banner.jpg);
     height: 350px;
     background-attachment: fixed;
     background-position: center;
