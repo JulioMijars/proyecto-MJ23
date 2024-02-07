@@ -1,0 +1,33 @@
+.fondo_negro{
+    background-color: $negro;
+    .main_style{
+        color: $blanco;
+        font-size: 20px;
+        .letra-titulos{
+            font-size: 4rem;
+        }
+        .lead{
+            font-size: 4rem;
+            font-weight: 300;
+        }
+        .letras-formularios{
+            font-size: 3rem;
+        }
+        .img-fluid{
+            max-width: 100%;
+            height: auto;
+        }
+        .form-group{
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+.banner{
+    background-image: url(../medios/michael-jordan.banner.jpg);
+    height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

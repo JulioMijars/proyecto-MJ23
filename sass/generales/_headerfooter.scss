@@ -1,0 +1,30 @@
+header{
+    style{
+        $negro:
+        $blanco;
+        font-size: 20px;
+    }
+}
+
+.colornav{
+    background-color: $rojo;
+    font-size: 2rem;
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    height: 95px;
+    .colornav a{
+        color: $blanco;
+    }
+    .img-nav{
+        width: 95px;
+    }
+    
+}
+
+.footer-style{
+    background-color: $rojo;
+    color: $blanco;
+    font-size: 10px;
+    
+}

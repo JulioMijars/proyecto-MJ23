@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Rethink+Sans:ital,wght@1,500&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+html {
+  font-family: "Libre Baskerville", serif;
+  font-size: 62.5%;
+}
+
+header style {
+  font-size: 20px;
+}
+
+.colornav {
+  background-color: #D72323;
+  font-size: 2rem;
+  position: sticky;
+  top: 0%;
+  width: 100%;
+  height: 95px;
+}
+.colornav .colornav a {
+  color: white;
+}
+.colornav .img-nav {
+  width: 95px;
+}
+
+.footer-style {
+  background-color: #D72323;
+  color: white;
+  font-size: 10px;
+}
+
+.fondo_negro {
+  background-color: black;
+}
+.fondo_negro .main_style {
+  color: white;
+  font-size: 20px;
+}
+.fondo_negro .main_style .letra-titulos {
+  font-size: 4rem;
+}
+.fondo_negro .main_style .lead {
+  font-size: 4rem;
+  font-weight: 300;
+}
+.fondo_negro .main_style .letras-formularios {
+  font-size: 3rem;
+}
+.fondo_negro .main_style .img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.fondo_negro .main_style .form-group {
+  margin-bottom: 1rem;
+}
+
+.banner {
+  background-image: url(../medios/michael-jordan.banner.jpg);
+  height: 350px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=estilos.css.map */
