@@ -9,6 +9,12 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
 header style {
   font-size: 20px;
 }
@@ -19,7 +25,7 @@ header style {
   position: sticky;
   top: 0%;
   width: 100%;
-  height: 95px;
+  height: auto;
 }
 .colornav .colornav a {
   color: white;
@@ -54,6 +60,25 @@ header style {
 .fondo_negro .main_style .img-fluid {
   max-width: 100%;
   height: auto;
+}
+.fondo_negro .main_style .img-fluid-galeria {
+  width: 100%;
+  height: 250px;
+}
+.fondo_negro .main_style .obj_flex {
+  width: 100%;
+  height: 0;
+  padding-top: 56.25%;
+  position: relative;
+}
+.fondo_negro .main_style .obj_flex iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
 .fondo_negro .main_style .form-group {
   margin-bottom: 1rem;

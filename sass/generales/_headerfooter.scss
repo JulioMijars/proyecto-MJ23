@@ -1,3 +1,8 @@
+body{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
 header{
     style{
         $negro:
@@ -12,7 +17,7 @@ header{
     position: sticky;
     top: 0%;
     width: 100%;
-    height: 95px;
+    height: auto;
     .colornav a{
         color: $blanco;
     }
